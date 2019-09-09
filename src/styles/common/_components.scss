@@ -1,0 +1,53 @@
+// table组件
+.ant-table {
+    .ant-table-thead {
+        tr > th {
+            i.iconfont.icon-Triangle{
+                &:hover{
+                    background: transparent!important;
+                    color: #4CB5B6;
+                }
+                &.ant-table-filter-open.ant-table-filter-icon, &.ant-table-filter-open.ant-table-filter-icon:hover, &.ant-table-filter-open.ant-table-filter-icon:focus{
+                    background: transparent;
+                    color: #4CB5B6;
+                }
+                &.active {
+                    background: transparent !important;
+                    color: #4CB5B6;
+                }
+            }
+        }  
+    }
+}
+
+// 下拉列表组件
+.ant-dropdown {
+    .ant-table-filter-dropdown {
+        .table-filter-dropdown {
+            max-height: 190px;
+            overflow-y: auto;
+        }
+    }
+}
+.ant-select {
+    font-size: 12px;
+}
+
+// 弹窗组件
+.ant-modal {
+    .ant-modal-content {
+        .ant-modal-header {
+
+        }
+        .ant-modal-body {
+
+        }
+        .ant-modal-footer {
+
+        }
+    }
+}
+// input组件
+.ant-input {
+    font-size: 12px;
+}
