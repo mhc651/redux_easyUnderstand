@@ -18,7 +18,7 @@
     "echarts": "^4.2.0-rc.2",
     "echarts-for-react": "^2.0.15-beta.0",
     "es6-promise": "^4.2.5",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "formdata-polyfill": "^3.0.17",
     "hex-rgba": "^1.0.2",
     "hz-atlas": "^0.0.14",
